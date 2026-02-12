@@ -236,10 +236,31 @@
         Please watch the video below outlining why I am standing for the Board and how I hope to contribute to the future of the Adelaide Crows.
       </p>
 
-      <div class="video-wrapper">
-        <!-- Replace with your embedded video -->
-        <!-- Example: <iframe src="https://www.youtube.com/embed/VIDEO_ID" frameborder="0" allowfullscreen></iframe> -->
-      </div>
+<div class="video-wrapper">
+    <iframe 
+        src="https://player.vimeo.com/video/123456789?title=0&byline=0&portrait=0"
+        allow="autoplay; fullscreen; picture-in-picture"
+        allowfullscreen>
+    </iframe>
+</div>
+.video-wrapper {
+    position: relative;
+    padding-top: 56.25%; /* 16:9 aspect ratio */
+    max-width: 720px;
+    margin: 30px auto;
+}
+
+.video-wrapper iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border: 0;
+}
+
+      
+      
     </section>
 
     <section class="cta">
